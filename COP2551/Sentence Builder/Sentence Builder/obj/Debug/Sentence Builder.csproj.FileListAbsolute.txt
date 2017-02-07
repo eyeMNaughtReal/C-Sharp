@@ -1,0 +1,9 @@
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.exe.config
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.exe
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.pdb
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.csprojResolveAssemblyReference.cache
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence_Builder.Form1.resources
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence_Builder.Properties.Resources.resources
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.csproj.GenerateResource.Cache
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.exe
+c:\users\mark conley\documents\visual studio 2015\Projects\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.pdb

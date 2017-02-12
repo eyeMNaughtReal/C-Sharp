@@ -32,7 +32,7 @@
             this.textGuess = new System.Windows.Forms.TextBox();
             this.buttonGuess = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
-            this.labelFalse = new System.Windows.Forms.Label();
+            this.labelStatus = new System.Windows.Forms.Label();
             this.labelRandomNum = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -77,16 +77,16 @@
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
-            // labelFalse
+            // labelStatus
             // 
-            this.labelFalse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.labelFalse.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.labelFalse.Location = new System.Drawing.Point(21, 153);
-            this.labelFalse.Name = "labelFalse";
-            this.labelFalse.Size = new System.Drawing.Size(492, 93);
-            this.labelFalse.TabIndex = 4;
-            this.labelFalse.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelFalse.Visible = false;
+            this.labelStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.labelStatus.Location = new System.Drawing.Point(21, 153);
+            this.labelStatus.Name = "labelStatus";
+            this.labelStatus.Size = new System.Drawing.Size(492, 93);
+            this.labelStatus.TabIndex = 4;
+            this.labelStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelStatus.Visible = false;
             // 
             // labelRandomNum
             // 
@@ -101,7 +101,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(538, 379);
             this.Controls.Add(this.labelRandomNum);
-            this.Controls.Add(this.labelFalse);
+            this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonGuess);
             this.Controls.Add(this.textGuess);
@@ -119,7 +119,7 @@
         private System.Windows.Forms.TextBox textGuess;
         private System.Windows.Forms.Button buttonGuess;
         private System.Windows.Forms.Button buttonExit;
-        private System.Windows.Forms.Label labelFalse;
+        private System.Windows.Forms.Label labelStatus;
         private System.Windows.Forms.Label labelRandomNum;
     }
 }

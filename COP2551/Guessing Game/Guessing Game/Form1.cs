@@ -10,12 +10,18 @@ using System.Windows.Forms;
 
 namespace Guessing_Game
 {
+  /*Name: M Conley
+  Current Date: 02/12/2017
+  Class.section: COP2551.0M1
+  Assignment: Guessing Game
+  */ 
+
     public partial class Form1 : Form
     {
         Random rand = new Random();
         private int answer; // answer variable is generated
         private int guess; // guess variable is generated
-        private int count = 0; // count variable is generated and assigned a default value of 1
+        private int count = 1; // count variable is generated and assigned a default value of 1
 
         public Form1()
         {
@@ -33,7 +39,7 @@ namespace Guessing_Game
                 {
                     labelStatus.Visible = true;  //enables label visability
                     labelStatus.ForeColor = System.Drawing.Color.Red;   //changes font color to red
-                    labelStatus.Text = ("Your guess was " + guess + ".  That is too low, try again! " + answer);
+                    labelStatus.Text = ("Your guess was " + guess + ".  That is too low, try again! That was guess number " + count +".");
                     count++; // adds 1 to the number of guesses.
                     textGuess.Text = "";  // clearing the input field, after the guess.
                 }
@@ -41,7 +47,7 @@ namespace Guessing_Game
                 {
                     labelStatus.Visible = true;  //enables label visability
                     labelStatus.ForeColor = System.Drawing.Color.Red;  //changes font color to red
-                    labelStatus.Text = ("Your guess was " + guess + ".  That is too high, try again! " + answer);
+                    labelStatus.Text = ("Your guess was " + guess + ".  That is too high, try again! That was guess number " + count + ".");
                     count++; // adds 1 to the number of guesses.
                     textGuess.Text = ""; // clearing the input field, after the guess.
                 }
@@ -49,7 +55,8 @@ namespace Guessing_Game
                 {
                     labelStatus.Visible = true;  //enables label visability
                     labelStatus.ForeColor = System.Drawing.Color.Green; //changes font color to green
-                    labelStatus.Text = ("Congratulations!  You got it on your " + count + " guess.");
+                    count--;
+                    labelStatus.Text = ("Congratulations!  You got it on guess " + count + ".");
                     count = 0; //resets guess count to 0;
                     answer = rand.Next(100) + 1;  //after correctly guessing, gives new random number
                 }
